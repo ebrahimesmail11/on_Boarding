@@ -9,18 +9,18 @@ final String image,title,subTitle;
       children: [
 
         Image.asset(image),
-        Spacer(),
+        const Spacer(),
         Text(
           title,
           textAlign:TextAlign.center,
           style: Theme.of(context).textTheme.headline5!.copyWith(fontWeight: FontWeight.w500,),
         ),
-        SizedBox(height: 10,),
+        const SizedBox(height: 10,),
         Text(
           subTitle,
           textAlign: TextAlign.center,
         ),
-        Spacer(),
+        const Spacer(),
       ],
     );
   }

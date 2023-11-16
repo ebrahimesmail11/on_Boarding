@@ -1,4 +1,4 @@
-import 'dart:ui';
+
 
 import 'package:flutter/material.dart';
 import 'package:on_boarding_setup/Model/ItemModel.dart';
@@ -12,7 +12,7 @@ final Item artiItem;
     return RefactorHome(
         image: artiItem.image,
         title: artiItem.title,
-        subTitle: artiItem.subTitle,
+        subTitle: artiItem.description,
     );
   }
 }
